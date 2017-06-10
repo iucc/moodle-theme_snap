@@ -1,0 +1,13 @@
+.dir-rtl #toc-search:before {
+    display: none;
+}
+
+.dir-rtl #toc-search:after {
+  content: '';
+  background: transparent url("[[pix:theme|search]]") no-repeat 50% 50%;
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: -2.5em;
+  margin-bottom: -0.3em;
+}
